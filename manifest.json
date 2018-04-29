@@ -1,0 +1,15 @@
+{
+  "name": "Bubble Blocker",
+  "version": "1.0",
+  "description": "Block those annoying chat bubbles.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://js.intercomcdn.com/*"
+  ],
+  "background": {
+    "scripts": ["blocker.js"],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
